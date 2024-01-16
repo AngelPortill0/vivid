@@ -1,7 +1,7 @@
 import os
-import environ
-
 from pathlib import Path
+
+import environ
 from django.core.asgi import get_asgi_application
 
 BASE_DIR: environ.Path = environ.Path(__file__) - 1

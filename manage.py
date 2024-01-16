@@ -2,9 +2,9 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-import environ
-
 from pathlib import Path
+
+import environ
 
 BASE_DIR: environ.Path = environ.Path(__file__) - 1
 ENV_FILE_DIR: str = os.path.join(BASE_DIR, Path("vivid/settings/.env"))
