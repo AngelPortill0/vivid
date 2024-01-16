@@ -1,0 +1,11 @@
+name: Python Formatting
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-lastest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: psf/black@stable
