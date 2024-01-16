@@ -1,7 +1,5 @@
 from vivid.settings.base import *
 
-SECRET_KEY: str = env("SECRET_KEY")
-
 DEBUG: bool = False
 
 CORS_ORIGIN_ALLOW_ALL: bool = True
